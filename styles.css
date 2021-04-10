@@ -2,14 +2,24 @@ body
 {	
 	margin: 0;
 	padding: 0;
-	
-	display: flex;
-	justify-content: center;
-	align-items: center;
+}
+
+table
+{
+	table-layout: fixed;
 }
 
 td
 {
 	padding: 20px;
     border: 1px solid #000;
+}
+
+td:first-of-type
+{
+	border: none;
+}
+
+.hide-control {
+	display: none;
 }
